@@ -1,5 +1,5 @@
 # ASP.NET Core
-- task: AzureWebApp@1
+ task: AzureWebApp@1
   inputs:
     azureSubscription: 'Free Trial(44071b3e-824b-439d-ba63-f02b30a93aac)'
     appType: 'webAppLinux'
@@ -10,7 +10,7 @@
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
-trigger:
+-trigger:
 - main
 
 pool:
